@@ -1,8 +1,8 @@
 # MTrack
 
-​	This framework allows developers to quickly manipulate audio and video splicing operations.We welcome your feedback in [issues]() and [pull requests](). 
+​	This framework allows developers to quickly manipulate audio and video splicing operations.We welcome your feedback in [issues](https://github.com/CreaterOS/MTrack/issues) and [pull requests](https://github.com/CreaterOS/MTrack/pulls). 
 
-​	Thanks to all of [our contributors]().
+​	Thanks to all of [our contributors](https://twitter.com/bryant_reyn).
 
 ## Introduction
 
@@ -204,8 +204,15 @@ MPhotoTrackPhotoManager *photoTrackPhotoManager = [MPhotoTrackPhotoManager share
 
 ### Maintainers
 
-@CreaterOS
+[@CreaterOS](https://github.com/CreaterOS)
 
 ### License
+MIT License
 
-### 
+### Contribute to this project
+
+If you have a feature request or bug report, please feel free to send [863713745@qq.com](mailto:863713745@qq.com) to upload the problem, and we will provide you with revisions and help as soon as possible. Thank you very much for your support.
+
+### Security Disclosure
+
+If you have found the MTrack security vulnerabilities and vulnerabilities that need to be modified, you should email them to [863713745@qq.com](mailto:863713745@qq.com) as soon as possible. thank you for your support.
