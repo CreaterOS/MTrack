@@ -33,6 +33,9 @@
 		EEA06CC627294F34001FC6CA /* MTypeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA06CBB27294F33001FC6CA /* MTypeCheck.m */; };
 		EEA06CCA27294FA7001FC6CA /* MVideoTrackVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA06CC927294FA7001FC6CA /* MVideoTrackVideoManager.m */; };
 		EEA06CCD2729506E001FC6CA /* MTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA06CCC2729506E001FC6CA /* MTrackManager.m */; };
+		EEF8392A273E39FE00778953 /* 02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EEF83929273E39FE00778953 /* 02.mp4 */; };
+		EEF8392C273E447E00778953 /* 一起去看风和日丽.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF8392B273E447E00778953 /* 一起去看风和日丽.mp3 */; };
+		EEF8392F273E509B00778953 /* MGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF8392E273E509B00778953 /* MGenre.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,10 @@
 		EEA06CC927294FA7001FC6CA /* MVideoTrackVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVideoTrackVideoManager.m; sourceTree = "<group>"; };
 		EEA06CCB2729506E001FC6CA /* MTrackManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTrackManager.h; sourceTree = "<group>"; };
 		EEA06CCC2729506E001FC6CA /* MTrackManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTrackManager.m; sourceTree = "<group>"; };
+		EEF83929273E39FE00778953 /* 02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02.mp4; sourceTree = "<group>"; };
+		EEF8392B273E447E00778953 /* 一起去看风和日丽.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一起去看风和日丽.mp3"; sourceTree = "<group>"; };
+		EEF8392D273E509B00778953 /* MGenre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGenre.h; sourceTree = "<group>"; };
+		EEF8392E273E509B00778953 /* MGenre.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGenre.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +166,8 @@
 			children = (
 				EE533FF6273262EE002F4E91 /* MMetaInfo.h */,
 				EE533FF7273262EE002F4E91 /* MMetaInfo.m */,
+				EEF8392D273E509B00778953 /* MGenre.h */,
+				EEF8392E273E509B00778953 /* MGenre.m */,
 			);
 			path = Meta;
 			sourceTree = "<group>";
@@ -217,6 +226,8 @@
 		EEA06C7327294F1D001FC6CA /* MTrack */ = {
 			isa = PBXGroup;
 			children = (
+				EEF8392B273E447E00778953 /* 一起去看风和日丽.mp3 */,
+				EEF83929273E39FE00778953 /* 02.mp4 */,
 				EEA06CA927294F33001FC6CA /* MTrack */,
 				EEA06C7427294F1D001FC6CA /* AppDelegate.h */,
 				EEA06C7527294F1D001FC6CA /* AppDelegate.m */,
@@ -413,6 +424,8 @@
 				EEA06C8427294F20001FC6CA /* LaunchScreen.storyboard in Resources */,
 				EEA06C8127294F20001FC6CA /* Assets.xcassets in Resources */,
 				EEA06C7F27294F1D001FC6CA /* Main.storyboard in Resources */,
+				EEF8392C273E447E00778953 /* 一起去看风和日丽.mp3 in Resources */,
+				EEF8392A273E39FE00778953 /* 02.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +468,7 @@
 				EEA06C8727294F20001FC6CA /* main.m in Sources */,
 				EE533FFC27327326002F4E91 /* MTailManager.m in Sources */,
 				EE533FF8273262EE002F4E91 /* MMetaInfo.m in Sources */,
+				EEF8392F273E509B00778953 /* MGenre.m in Sources */,
 				EEA06C7927294F1D001FC6CA /* SceneDelegate.m in Sources */,
 				EE53400027327F9A002F4E91 /* MExport.m in Sources */,
 			);

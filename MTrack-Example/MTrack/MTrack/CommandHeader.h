@@ -29,6 +29,9 @@
 #define kTypeQT @"qt"
 
 #define kMetaInfoKeyWithDuration @"duration"
+#define kMetaInfoKeyWithGenre @"genre"
+#define kMetaInfoKeyWithRate @"rate"
+#define kMetaInfoKeyWithVolume @"volume"
 
 #define WEAK(self) __weak typeof(self) weakself = self
 #define STRONG(weakself) __strong typeof(weakself) self = weakself
